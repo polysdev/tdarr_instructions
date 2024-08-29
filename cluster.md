@@ -25,7 +25,7 @@ Tdarr node use the port 8256
 
  - Here [instructions...](https://docs.tdarr.io/docs/installation/windows-linux-macos)
 
-## 5. Install GlusterFS (this for shared storage)
+## 4. Install GlusterFS (this for shared storage)
 
 #### Install GlusterFS 
 ```command
@@ -53,7 +53,7 @@ sudo mount -t glusterfs node1:/gvol0 /path/to/media
 echo "node1:/gvol0 /path/to/media glusterfs defaults,_netdev 0 0" | sudo tee -a /etc/fstab
 ```
 
-## 6. Configure Cluster Management Tool (Optional)
+## 5. Configure Cluster Management Tool (Optional)
 
 ##### It's not necessary, but can help to check and review resources of cluster
 
